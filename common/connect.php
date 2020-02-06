@@ -5,9 +5,9 @@ error_reporting(E_ERROR);
 
 
  $dbhost = "remotemysql.com";
- $dbuser = "Co705YwcXR";
- $dbpass = "pt7gluoYVG";
- $db 	 = "Co705YwcXR";
+ $dbuser = "zQxpSodulk";
+ $dbpass = "vx70sVJeJf";
+ $db 	 = "zQxpSodulk";
 
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
 
