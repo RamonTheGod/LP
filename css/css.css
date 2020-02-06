@@ -1,0 +1,44 @@
+a {
+	color: #000000;
+}
+
+body,input,select,option,textarea,td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #FFFFFF;
+}
+
+table {
+	background-color: #C3C8CD;
+}
+
+.headline {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.highlight {
+	background-color: #C3C8CD;
+}
+
+.navbar {
+	background-color: #C3C8CD;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.search {
+	font-size: 10px;
+}
+
+.smaller {
+	font-size: 10px;
+}
+
+.white {
+	background-color: #FFFFFF;
+}
