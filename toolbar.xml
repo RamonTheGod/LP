@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Configuration file for the Branded Alexa Toolbar         -->
+<!-- For more information, and to get your own toolbar, visit -->
+<!-- http://cgi.alexa.com/associates/cgi-bin/signup.cgi       -->
+<Alexa>
+	<AssociateID>rageapocalcar-20</AssociateID>
+	<Name>The Prometheus Plan</Name>
+	<LinkUrl>http://www.LaunchPages.com</LinkUrl>
+	<ImageUrl>http://www.launchpages.com/images/launchpages21x70.gif</ImageUrl>
+</Alexa>

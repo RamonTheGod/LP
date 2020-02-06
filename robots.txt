@@ -1,0 +1,8 @@
+# robots.txt for http://www.launchpages.com/
+
+User-agent: *
+Disallow: /awstats/
+Disallow: /common/
+Disallow: /launchpages.php
+Disallow: /otherlaunchpages.php
+Disallow: /toplinks.php

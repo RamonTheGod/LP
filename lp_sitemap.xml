@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<url>
+<loc>http://www.launchpages.com/</loc>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/index.php</loc>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/managelinks.php</loc>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/manageaccount.php</loc>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/wherepeoplelink.php</loc>
+<changefreq>always</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/signup.php</loc>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/termsofuse.php</loc>
+<changefreq>yearly</changefreq>
+</url>
+<url>
+<loc>http://www.launchpages.com/privacypolicy.php</loc>
+<changefreq>yearly</changefreq>
+</url>
+</urlset>

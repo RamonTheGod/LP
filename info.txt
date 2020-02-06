@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: launchpages.com/
+site_owner: Ramon Garcia
+address1: F006 Hampton Gardens Condominium
+address2: C. Raymundo Ave, Maybunga
+city: Pasig
+state: MM
+country:  Philippines
+postal_code: 1607
+phone_number:  639176237875
+display_email: ramongarcia@gmail.com
+site_name: Launch Pages
+site_description: LaunchPages is a online database of your most visited links. LaunchPages are most efficient when used as your default home page. As soon as you open your web browser, all the sites you would regularly visit are easily accessible at a click of your mouse.
