@@ -19,7 +19,9 @@
 			session_id($session_id);
 			session_name("sid");
 			session_start();
-			setcookie("sessid", $session_id);
+			// setcookie("sessid", $session_id);
+			setcookie("sessid", $session_id, '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
+
 			// setcookie("userid", $r['user_id']);
 			setcookie("userid", $r['user_id'], '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
 			$cookieid = $r['user_id'];
