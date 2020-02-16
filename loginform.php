@@ -18,14 +18,17 @@
 			session_name("sid");
 			session_start();
 			if ($_POST['remember'] == 1) {
-				setcookie("username", $r['username'], '/', time()+60*60*24, '.launchpages.herokuapp.com');
-				setcookie("userid", $r['user_id'], '/', time()+60*60*24, '.launchpages.herokuapp.com');
-				setcookie("sessid", $session_id, '/', time()+60*60*24, '.launchpages.herokuapp.com');
+// 				setcookie("username", $r['username'], '/', time()+60*60*24, '.launchpages.herokuapp.com');
+// 				setcookie("userid", $r['user_id'], '/', time()+60*60*24, '.launchpages.herokuapp.com');
+// 				setcookie("sessid", $session_id, '/', time()+60*60*24, '.launchpages.herokuapp.com');
+				setcookie("username", $r['username'], time()+(60*60*24*3000), '/', '.launchpages.herokuapp.com', false, true);
+				setcookie("userid", $r['user_id'], time()+(60*60*24*3000), '/', '.launchpages.herokuapp.com', false, true);
+				setcookie("sessid", $session_id, time()+(60*60*24*3000), '/', '.launchpages.herokuapp.com', false, true);
 
 			} else {
-				setcookie("username", $r['username'], '/', 0, '.launchpages.herokuapp.com');
-				setcookie("userid", $r['user_id'], '/', 0, '.launchpages.herokuapp.com');
-				setcookie("sessid", $session_id, '/', 0, '.launchpages.herokuapp.com');
+			setcookie("username", $r['username'], 0, '/', '.launchpages.herokuapp.com', false, true);
+				setcookie("userid", $r['user_id'], 0, '/', '.launchpages.herokuapp.com', false, true);
+				setcookie("sessid", $session_id, 0, '/', '.launchpages.herokuapp.com', false, true);
 
 			}
 			
