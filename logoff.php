@@ -1,7 +1,7 @@
 <?php
-setcookie("username", '', time()+60*60*24*3000, '/', '.launchpages.com');
-	setcookie("userid", '', time()+60*60*24*3000, '/', '.launchpages.com');
-	setcookie("sessid", '', time()+60*60*24*3000, '/', '.launchpages.com');
+	setcookie("username", $r['username'], time()-(60*60*24*3000), '/', '.launchpages.herokuapp.com', false, true);
+	setcookie("userid", $r['user_id'], time()-(60*60*24*3000), '/', '.launchpages.herokuapp.com', false, true);
+	setcookie("sessid", $session_id, time()-(60*60*24*3000), '/', '.launchpages.herokuapp.com', false, true);
 	
 	header ("location: loginform.php");
 	?>
