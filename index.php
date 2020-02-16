@@ -11,19 +11,15 @@
 		
 		// while ($r = mysql_fetch_array($result)) {
 		while ($r = mysqli_fetch_assoc($result)) {
-			// setcookie("userid", $r['user_id']);
-			setcookie("userid", $r['user_id'], '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
+			setcookie("userid", $r['user_id']);
 			$sid=$PHP_SESSION;
 			srand((double)microtime()*1000000);
 			$session_id = md5(uniqid(rand()));
 			session_id($session_id);
 			session_name("sid");
 			session_start();
-			// setcookie("sessid", $session_id);
-			setcookie("sessid", $session_id, '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
-
-			// setcookie("userid", $r['user_id']);
-			setcookie("userid", $r['user_id'], '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
+			setcookie("sessid", $session_id);
+			setcookie("userid", $r['user_id']);
 			$cookieid = $r['user_id'];
 		}
 	} else {

@@ -16,12 +16,9 @@
 		session_id($session_id);
 		session_name("sid");
 		session_start();
-		// setcookie("username", $r['username'], time()+60*60*24*3000);
-		setcookie("username", $r['username'], '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
-		// setcookie("userid", $r['user_id']);
-		setcookie("userid", $r['user_id'], '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
-		// setcookie("sessid", $session_id);
-		setcookie("sessid", $session_id, '/', time()+60*60*24*3000, '.launchpages.herokuapp.com');
+		setcookie("username", $r['username'], time()+60*60*24*3000);
+		setcookie("userid", $r['user_id']);
+		setcookie("sessid", $session_id);
 		$loggedin = 1;
 		
 		$guserid = $_GET['userid'];
