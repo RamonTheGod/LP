@@ -1,6 +1,6 @@
 <table border="0" cellpadding="3" cellspacing="0" width="100%">
 	<tr>
-		<td><a href="http://www.launchpages.herokuapp.com"><img src="images/launchpages.png" height="45" width="270" border="0" alt="LaunchPages.com" /></a></td>
+		<td><a href="launchpages.herokuapp.com/"><img src="images/launchpages.png" height="45" width="270" border="0" alt="LaunchPages.com" /></a></td>
 		<td align="right">&nbsp;</td>
 	</tr>
 	<tr>
