@@ -4,10 +4,14 @@ error_reporting(E_ERROR);
 	// mysql_connect(localhost, "ramonlp_ramonlp", "passwordhere");
 
 
- $dbhost = "remotemysql.com";
- $dbuser = "zQxpSodulk";
- $dbpass = "vx70sVJeJf";
- $db 	 = "zQxpSodulk";
+//  $dbhost = "remotemysql.com";
+//  $dbuser = "zQxpSodulk";
+//  $dbpass = "vx70sVJeJf";
+//  $db 	 = "zQxpSodulk";
+ $dbhost = "us-cdbr-iron-east-04.cleardb.net";
+ $dbuser = "bbd72bc2ad62ac";
+ $dbpass = "55f2bad3";
+ $db 	 = "heroku_74945967ec4ba91";
 
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
 
